@@ -124,11 +124,9 @@ section {
 }
 
 .btn-table-icon {
-  border-radius: 50%;
-  background-image: url('/test.PNG');
+  background-image: url('/assets/test.png');
   height: 16px;
   width: 16px;
-  line-height: 16px;
   display: inline-block;
   color: #ffffff;
   text-align: center;

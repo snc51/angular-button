@@ -19,11 +19,16 @@
           "options": {
             "aot": true,
             "outputPath": "dist",
+            "deployUrl": "dist/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "assets": [],
+            "assets": [
+              "src/assets",
+              "src/favicon.ico",
+              { "glob": "**/*", "input": "src/assets", "output": "../acme/lib1/assets/" }
+            ],
             "styles": [
               "src/styles.scss"
             ],
@@ -82,5 +87,5 @@
       }
     }
   },
-  "defaultProject": "material-aio-example"
+  "defaultProject": "material-aio-example",
 }
