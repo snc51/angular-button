@@ -1,0 +1,135 @@
+section {
+  display: table;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: table-cell;
+  width: 490px;
+}
+
+.example-button-row .mat-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
+
+.example-button-row button {
+  margin: 8px 8px 8px 0;
+}
+
+.btn {
+  box-sizing: border-box;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  white-space: nowrap;
+  text-decoration: none;
+  vertical-align: baseline;
+  text-align: center;
+  margin: 0;
+  line-height: 36px;
+  padding: 0 16px;
+  border-radius: 4px;
+  overflow: visible;
+  min-width: 100px;
+  font-size: 1rem;
+}
+
+.btn-black {
+  background: RGB(64, 70, 93);
+  color: RGB(255, 255, 255);
+  font-weight: bold;
+  border: 0.1rem solid RGB(64, 70, 93);
+}
+
+.btn-grey {
+  background: RGB(244, 247, 250);
+  color: RGB(64, 70, 93);
+  font-weight: bold;
+  border: 0.1rem solid RGB(206, 212, 218);
+}
+
+.btn-white {
+  background: RGB(255, 255, 255);
+  color: RGB(64, 70, 93);
+  font-weight: bold;
+  border: 0.1rem solid RGB(206, 212, 218);
+}
+
+.btn-bule {
+  background: RGB(255, 255, 255);
+  color: RGB(33, 133, 208);
+  font-weight: bold;
+  border: 0.1rem solid RGB(33, 133, 208);
+}
+
+/* + */
+.btn-add {
+  border-radius: 0px;
+  background: RGB(244, 247, 250);
+  color: RGB(67, 111, 164);
+  border: 0.1rem solid RGB(206, 212, 218);
+}
+.btn-add-icon {
+  border-radius: 50%;
+  background: RGB(67, 111, 164);
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* - */
+.btn-minus {
+  border-radius: 0px;
+  background: RGB(255, 255, 255);
+  color: RGB(102, 107, 125);
+  border: 0.1rem solid RGB(206, 212, 218);
+}
+.btn-minus-icon {
+  border-radius: 50%;
+  background: RGB(102, 107, 125);
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+}
+
+.btn-table-icon {
+  border-radius: 50%;
+  background-image: url('file:///C:/Users/xuhuan/Desktop/test.PNG');
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+}
