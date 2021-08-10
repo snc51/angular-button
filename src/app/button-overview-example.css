@@ -125,7 +125,7 @@ section {
 
 .btn-table-icon {
   border-radius: 50%;
-  background-image: url('file:///C:/Users/xuhuan/Desktop/test.PNG');
+  background-image: url('/test.PNG');
   height: 16px;
   width: 16px;
   line-height: 16px;
