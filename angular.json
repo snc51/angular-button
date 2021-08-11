@@ -25,9 +25,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/assets",
-              "src/favicon.ico",
-              { "glob": "**/*", "input": "src/assets", "output": "../acme/lib1/assets/" }
+              "src/assets/*"
             ],
             "styles": [
               "src/styles.scss"
